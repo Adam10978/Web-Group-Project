@@ -1,0 +1,188 @@
+header, nav,main,footer,figure,section,article{ display: block;}
+/********************************************************************************/
+/* styles for all pages*/
+/********************************************************************************/
+body{
+margin:0;
+background-color: #ffffff;
+color: #777777;
+font: normal 15px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+a{
+text-decoration:none;
+color: #686868;
+}
+header{
+height:120px;
+}
+
+
+
+header h1 .color {
+color: #02b8dd;
+}
+
+
+
+header nav ul li {
+display: inline-block;
+}
+header nav ul li a{
+color: #444444;
+text-transform: uppercase;
+font-weight: bold;
+margin-right: 20px;
+height: 120px;
+}
+main{
+width: 950px;
+margin-right: auto;
+margin-left: auto;
+}
+footer{
+background-color:#f8fafa;
+text-align: center;
+padding: 20px 0;
+clear: left;
+}
+footer nav.wrapper{
+width: 910px;
+margin-right: auto;
+margin-left: auto;
+}
+
+
+
+li{
+display: inline-block;
+}
+article.twocolumn{
+width: 450px;
+text-align:center;
+float:left;
+margin-bottom:20px;
+margin-top:20px;
+}
+.more-link{
+border: 1px solid #02b8dd;
+color: #02b8dd;
+padding: 6px 20px;
+border-radius: 3px;
+}
+.more-link:hover{
+background-color: #02b8dd;
+color:#ffffff;
+}
+section#bottom{
+text-align:center;
+border-bottom: 1px solid #02b8dd;
+}
+section{
+width: 910px;
+margin:20px;
+padding-bottom:20px;
+padding-top:20px;
+clear: left;
+text-align:center;
+}
+a:hover {
+color: #02b8dd;
+}
+
+/********************************************************************************/
+/* styles for contact*/
+/********************************************************************************/
+nav#map{
+height: 400px;
+text-align:center;
+margin-bottom: 20px;
+border:1px solid #02b8dd;
+}
+label{
+display:inline-block;
+width:150px;
+}
+.more{
+color: #02b8dd;
+padding: 6px 20px;
+border-radius: 3px;
+}
+.more:hover{
+background-color: #02b8dd;
+color:#ffffff;
+}
+
+
+
+/********************************************************************************/
+/* style for social media icons to be placed in footer*/
+/********************************************************************************/
+footer nav.social{
+padding-top:20px;
+height:45px;
+width:200px;
+float:right;
+}
+footer nav.social ul{
+padding:0px;
+margin: 0px;
+}
+footer nav.social li{
+float:left;
+list-style:none;
+padding-left:15px;
+}
+
+
+
+footer nav.social img{
+width:45px;
+height:45px;
+}
+
+.message{
+    colour:  #02b8dd;
+    font: helvetica;
+    font-size: 40px;
+    margin: 0px;
+    padding-left: 60px;
+    padding-top: 30px;
+
+}
+
+.wrapper1 {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 400px 400px 60px;
+    grid-gap: 40px;
+    background-color: #fff;
+    color: black;
+    text-decoration: none;
+    font: helvetica;
+    font-size: 20px;
+}
+.box {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+.info{
+    text-align: left;
+    padding: 10px;
+    margin-right: 20px;
+    
+    
+}
+.title{
+    color: grey;
+    text-decoration: none;
+    font-weight: 200;
+  }
+ .spanh{
+     font-weight: 800;
+     color: #02b8dd;
+ }
