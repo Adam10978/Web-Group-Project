@@ -16,13 +16,9 @@ header{
 height:120px;
 }
 
-
-
 header h1 .color {
 color: #02b8dd;
 }
-
-
 
 header nav ul li {
 display: inline-block;
@@ -50,8 +46,6 @@ width: 910px;
 margin-right: auto;
 margin-left: auto;
 }
-
-
 
 li{
 display: inline-block;
@@ -133,8 +127,6 @@ list-style:none;
 padding-left:15px;
 }
 
-
-
 footer nav.social img{
 width:45px;
 height:45px;
@@ -186,3 +178,24 @@ height:45px;
      font-weight: 800;
      color: #02b8dd;
  }
+ 
+/********************************************************************************/
+/* style for number game game*/
+/********************************************************************************/ 
+
+#container2{
+	background-color: #0F2431;
+	border: 5px solid #F5E4C3;
+	height: 350PX;
+	width: 750px;
+	margin: auto;
+	text-align: center;
+}
+
+#input{
+	width: 100px;
+	margin: 25px;
+}
+#btn{
+	margin: 25px auto auto 5px;
+}
